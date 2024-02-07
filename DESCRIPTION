@@ -1,0 +1,12 @@
+Package: spCountSampPaper
+Maintainer: Jay Ver Hoef <jay.verhoef@noaa.gov>
+License: GPL-2
+Title: Estimating Abundance from Counts in Large Data Sets of Irregularly-Spaced Plots using Spatial Basis Functions
+Type: Package
+LazyLoad: yes
+Author: Jay Ver Hoef
+Description: package used for the paper "Estimating Abundance from Counts in Large Data Sets of Irregularly-Spaced Plots using Spatial Basis Functions"
+Version: 1.0
+Date: 2013-6-3
+Depends: MASS, maptools, sp, rgeos, methods
+

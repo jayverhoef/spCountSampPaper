@@ -1,0 +1,8 @@
+Dear Montse,
+
+I am submitting a manuscript, "Estimating Abundance from Counts in Large Data Sets of Irregularly-Spaced Plots using Spatial Basis Functions," by myself and John Jansen. This is original work and is not submitted anywhere else.  It is an important applied application for estimating abundance of a wildlife species with non-randomized designs from aircraft for spatial data that are quite pathological, with areas of both under and overdispersion, with nonstationary means and variance, and large sample sizes. There is a little history to the manuscript.  Originally, it was part of the invited special JABES issue "Modern Dimension Reduction Methods for Big Data Problems in Ecology," edited by Chris Wikle, Scott Holan, and Mevin Hooten.  After receiving the reviews, I withdrew the paper, realizing that it required further development.  The reason that I bring this to your attention is that my main correspondence during that time was with Chris Wikle, so he is familiar with an earlier version of this paper, and several reviewers have already looked at it.  I know that it is difficult to get reviewers, so some contact with Chris about this might be desirable. 
+
+I have carefully followed the instructions to authors. Thank you very much for considering our paper.  Please feel free to contact me if you have any questions.
+
+Sincerely,
+           Jay Ver Hoef

@@ -1,0 +1,45 @@
+This is BibTeX, Version 0.99c (TeX Live 2009/Debian)
+The top-level auxiliary file: spCountSampPaper.aux
+The style file: asa.bst
+Database file #1: /media/Hitachi2GB/00NMML/BibTexMaster/bibtex/bib/base/StatBibTex.bib
+You've used 47 entries,
+            2777 wiz_defined-function locations,
+            964 strings with 12699 characters,
+and the built_in function-call counts, 21434 in all, are:
+= -- 2030
+> -- 862
+< -- 46
++ -- 327
+- -- 264
+* -- 1920
+:= -- 3733
+add.period$ -- 84
+call.type$ -- 47
+change.case$ -- 273
+chr.to.int$ -- 47
+cite$ -- 47
+duplicate$ -- 984
+empty$ -- 1651
+format.name$ -- 403
+if$ -- 4218
+int.to.chr$ -- 1
+int.to.str$ -- 1
+missing$ -- 54
+newline$ -- 146
+num.names$ -- 196
+pop$ -- 301
+preamble$ -- 1
+purify$ -- 272
+quote$ -- 0
+skip$ -- 697
+stack$ -- 0
+substring$ -- 1437
+swap$ -- 248
+text.length$ -- 7
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 396
+warning$ -- 0
+while$ -- 219
+width$ -- 0
+write$ -- 522

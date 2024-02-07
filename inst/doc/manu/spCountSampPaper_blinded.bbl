@@ -1,0 +1,232 @@
+\begin{thebibliography}{47}
+\newcommand{\enquote}[1]{``#1''}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+
+\bibitem[{Baddeley and Turner(2005)}]{Badd:Turn:spat:2005}
+Baddeley, A. and Turner, R. (2005), \enquote{Spatstat: an {{\sf R}} package for
+  analyzing spatial point patterns,} \textit{Journal of Statistical Software},
+  12, 1--42, {URL}: {{\tt www.jstatsoft.org}}, {ISSN}: 1548-7660.
+
+\bibitem[{Baddeley and Turner(2006)}]{Badd:Turn:mode:2006}
+--- (2006), \enquote{Modelling spatial point patterns in {{\sf R}},} in
+  \textit{Case Studies in Spatial Point Pattern Modelling}, eds. Baddeley, A.,
+  Gregori, P., Mateu, J., Stoica, R., and Stoyan, D., New York:
+  Springer-Verlag, no. 185 in Lecture Notes in Statistics, pp. 23--74, {ISBN}:
+  0-387-28311-0.
+
+\bibitem[{Banerjee et~al.(2004)Banerjee, Carlin, and
+  Gelfand}]{Bane:Carl:Gelf:hier:2004}
+Banerjee, S., Carlin, B.~P., and Gelfand, A.~E. (2004), \textit{Hierarchical
+  Modeling and Analysis for Spatial Data}, New York, New York, USA: Chapman \&
+  Hall/CRC.
+
+\bibitem[{Barber and Gelfand(2007)}]{Barb:Gelf:hier:2007}
+Barber, J.~J. and Gelfand, A.~E. (2007), \enquote{Hierarchical spatial modeling
+  for estimation of population size,} \textit{Environmental and Ecological
+  Statistics}, 14, 193--205.
+
+\bibitem[{Berman and Turner(1992)}]{Berm:Turn:appo:1992}
+Berman, M. and Turner, T.~R. (1992), \enquote{Approximating Point Process
+  Likelihoods with GLIM,} \textit{Journal of the Royal Statistical Society.
+  Series C (Applied Statistis)}, 41, 31--38.
+
+\bibitem[{Besag(1974)}]{Besa:spat:1974}
+Besag, J. (1974), \enquote{Spatial Interaction and the Statistical Analysis of
+  Lattice Systems (with discussion),} \textit{Journal of the Royal Statistical
+  Society, Series B}, 36, 192--236.
+
+\bibitem[{Brillinger(1990)}]{Bril:spat:1990}
+Brillinger, D.~R. (1990), \enquote{Spatial-Temporal Modelling of Spatially
+  Aggregate Birth Data,} \textit{Survey Methodology}, 16, 255--269.
+
+\bibitem[{Brillinger(1994)}]{Bril:exan:1994}
+--- (1994), \enquote{Examples of Scientific Problems and Data Analysis in
+  Demography, Neurophysiology, and Seismology,} \textit{Journal of
+  Computational and Graphical Statistics}, 3, 1--22.
+
+\bibitem[{Christensen and Waagepetersen(2002)}]{Chri:Waag:baye:2002}
+Christensen, O.~F. and Waagepetersen, R. (2002), \enquote{Bayesian Prediction
+  of Spatial Count Data Using Generalized Linear Mixed Models,}
+  \textit{Biometrics}, 58, 280--286.
+
+\bibitem[{Cochran(1977)}]{Coch:samp:1977}
+Cochran, W.~G. (1977), \textit{Sampling Techniques, Third Edition}, New York:
+  John Wiley \& Sons.
+
+\bibitem[{Cressie and Johannesson(2008)}]{Cres:Gard:fixe:2008}
+Cressie, N. and Johannesson, G. (2008), \enquote{Fixed rank kriging for very
+  large spatial data sets,} \textit{Journal of the Royal Statistical Society,
+  Series B}, 70, 209--226.
+
+\bibitem[{Cressie(1993)}]{Cres:stat:1993}
+Cressie, N. A.~C. (1993), \textit{Statistics for Spatial Data}, New York: John
+  Wiley \& Sons.
+
+\bibitem[{Dorfman(1938)}]{Dorf:a:1938}
+Dorfman, R. (1938), \enquote{A Note on the Delta-Method for Finding Variance
+  Formulae,} \textit{The Biometric Bulletin}, 1, 129--137.
+
+\bibitem[{ESRI(2009)}]{ESRI:ArcG:2009}
+ESRI (2009), \enquote{ArcGIS Desktop: Release 9.3.1.} Tech. rep., Environmental
+  Systems Research Institute, Redlands, CA.
+
+\bibitem[{Friedman et~al.(1977)Friedman, Bentley, and
+  Finkel}]{Frie:Bent:Fink:algo:1977}
+Friedman, J.~H., Bentley, J.~L., and Finkel, R.~A. (1977), \enquote{An
+  Algorithm for Finding Best Matches in Logarithmic Expected Time,} \textit{ACM
+  Transactions on Mathematical Software}, 3, 209--226.
+
+\bibitem[{Gandin(1959)}]{Gand:prob:1959}
+Gandin, L.~S. (1959), \enquote{The Problem of Optimal Interpolation (In
+  Russian),} \textit{Trudy GGO}, 99, 67--75.
+
+\bibitem[{Gandin(1960)}]{Gand:opti:1960}
+--- (1960), \enquote{On Optimal Interpolation and Extrapolation of
+  Meteorological Fields (In Russian),} \textit{Trudy GGO}, 114, 75--89.
+
+\bibitem[{Gijbels et~al.(2010)Gijbels, Prosdocimi, and
+  Claeskens}]{Gijb:Pros:Clae:nonp:2010}
+Gijbels, I., Prosdocimi, I., and Claeskens, G. (2010), \enquote{Nonparametric
+  estimation of mean and dispersion functions in extended generalized linear
+  models,} \textit{Test}, 19, 580--608.
+
+\bibitem[{Gotway and Young(2002)}]{Gotw:Youn:comb:2002}
+Gotway, C.~A. and Young, L.~J. (2002), \enquote{Combining Incompatible Spatial
+  Data,} \textit{Journal of the American Statistical Association}, 97,
+  632--648.
+
+\bibitem[{Hinde and Dem{\'e}trio(1998)}]{Hind:Deme:over:1998}
+Hinde, J. and Dem{\'e}trio, C.~G. (1998), \enquote{Overdispersion: models and
+  estimation,} \textit{Computational Statistics \& Data Analysis}, 27,
+  151--170.
+
+\bibitem[{Johnson et~al.(2010)Johnson, Laake, and
+  Ver~Hoef}]{John:Laak:Ver:mode:2010}
+Johnson, D.~S., Laake, J.~L., and Ver~Hoef, J.~M. (2010), \enquote{A
+  Model-based Approach for Making Ecological Inference from Distance Sampling
+  Data,} \textit{Biometrics}, 66, 310--318.
+
+\bibitem[{Kyriakidis(2004)}]{Kyri:geos:2004}
+Kyriakidis, P.~C. (2004), \enquote{A Geostatistical Framework for Area-to-Point
+  Spatial Interpolation,} \textit{Geographical Analysis}, 36, 259--289.
+
+\bibitem[{MacQueen(1967)}]{MacQ:some:1967}
+MacQueen, J.~B. (1967), \enquote{Some Methods for Classification and Analysis
+  of MultiVariate Observations,} in \textit{Proc. of the fifth Berkeley
+  Symposium on Mathematical Statistics and Probability}, eds. Cam, L. M.~L. and
+  Neyman, J., University of California Press, vol.~1, pp. 281--297.
+
+\bibitem[{Matheron(1963)}]{Math:Prin:1963}
+Matheron, G. (1963), \enquote{Principles of Geostatistics,} \textit{Economic
+  Geology}, 58, 1246--1266.
+
+\bibitem[{McCullagh and Nelder(1989)}]{McCu:Neld:gene:1989}
+McCullagh, P. and Nelder, J.~A. (1989), \textit{Generalized Linear Models, 2nd
+  Edition}, Chapman \& Hall Ltd.
+
+\bibitem[{Monestiez et~al.(2006)Monestiez, Dubroca, Bonnin, Durbec, and
+  Guinet}]{Mone:Dubr:Bonn:Durb:Guin:Geos:2006}
+Monestiez, P., Dubroca, L., Bonnin, E., Durbec, J.-P., and Guinet, C. (2006),
+  \enquote{Geostatistical Modelling of Spatial Distribution of {\it
+  Balaenoptera physalus} in the Northwestern Meditteranean Sea from Sparse
+  Count Data and Heterogeneous Observation Efforts,} \textit{Ecological
+  Modelling}, 193, 615--628.
+
+\bibitem[{Moore and Tsiatis(1991)}]{Moor:Tsia:robu:1991}
+Moore, D. and Tsiatis, A. (1991), \enquote{Robust estimation of the variance in
+  moment methods for extra-binomial and extra-Poisson variation,}
+  \textit{Biometrics}, 47, 383--401.
+
+\bibitem[{Nelder and Mead(1965)}]{Neld:Mead:simp:1965}
+Nelder, J.~A. and Mead, R. (1965), \enquote{A Simplex Method for Function
+  Minimization.} \textit{Computer Journal}, 7, 308--313.
+
+\bibitem[{Nelder and Wedderburn(1972)}]{Neld:Wedd:gene:1972}
+Nelder, J.~A. and Wedderburn, R. W.~M. (1972), \enquote{Generalized Linear
+  Models,} \textit{Journal of the Royal Statistical Society, Series A:
+  General}, 135, 370--384.
+
+\bibitem[{Nychka and Saltzman(1998)}]{Nych:Salt:desi:1998}
+Nychka, D.~W. and Saltzman, N. (1998), \enquote{Design of air quality
+  monitoring networks,} in \textit{Case Studies in Environmental Statistics},
+  eds. Nychka, D.~e., Piegorsch, W. W.~e., and Cox, L.~H., Springer-Verlag Inc,
+  pp. 229--234.
+
+\bibitem[{{R Core Team}(2014)}]{R:Deve:Core:ALan:2014}
+{R Core Team} (2014), \textit{R: A Language and Environment for Statistical
+  Computing}, R Foundation for Statistical Computing, Vienna, Austria.
+
+\bibitem[{Rathbun and Cressie(1994)}]{Rath:Cres:asym:1994}
+Rathbun, S.~L. and Cressie, N. (1994), \enquote{Asymptotic Properties of
+  Estimators for the Parameters of Spatial Inhomogeneous Poisson Point
+  Processes,} \textit{Advances in Applied Probability}, 26, 122--154.
+
+\bibitem[{Royle et~al.(2007)Royle, K\'ery, Gautier, and
+  Schmid}]{Royl:Kery:Gaut:Schm:hier:2007}
+Royle, J.~A., K\'ery, M., Gautier, R., and Schmid, H. (2007),
+  \enquote{Hierarchical Spatial Models of Abundance and Occurrence From
+  Imperfect Survey Data,} \textit{Ecological Monographs}, 77, 465--481.
+
+\bibitem[{Ruppert et~al.(2003)Ruppert, Wand, and
+  Carroll}]{Rupp:Wand:Carr:semi:2003}
+Ruppert, D., Wand, M.~P., and Carroll, R.~J. (2003), \textit{Semiparametric
+  Regression}, Campbridge University Press.
+
+\bibitem[{{SAS Institute Inc}(2008)}]{SAS:stat:2008}
+{SAS Institute Inc} (2008), \textit{SAS/STAT\textsuperscript{\textregistered}
+  9.2 User’s Guide}, Cary, NC: SAS Institute Inc.
+
+\bibitem[{Schabenberger and Gotway(2005)}]{Scha:Gotw:stat:2005}
+Schabenberger, O. and Gotway, C.~A. (2005), \textit{Statistical Methods for
+  Spatial Data Analysis}, Boca Raton, Florida: Chapman Hall/CRC.
+
+\bibitem[{Thogmartin et~al.(2004)Thogmartin, Sauer, and
+  Knutson}]{Thog:Saue:Knut:hier:2004}
+Thogmartin, W.~E., Sauer, J.~R., and Knutson, M.~G. (2004), \enquote{A
+  Hierarchical Spatial Model of Avian Abundance With Application to Cerulean
+  Warblers,} \textit{Ecological Applications}, 14, 1766--1779.
+
+\bibitem[{Thompson(1992)}]{Thom:samp:1992}
+Thompson, S.~K. (1992), \textit{Sampling}, New York: John Wiley \& Sons.
+
+\bibitem[{Ver~Hoef(2000)}]{Ver:pred:2000}
+Ver~Hoef, J.~M. (2000), \enquote{Predicting Finite Populations from Spatially
+  Correlated Data,} in \textit{ASA Proceedings of the Section on Statistics and
+  the Environment}, American Statistical Association, pp. 93--98.
+
+\bibitem[{Ver~Hoef(2002)}]{Ver:samp:2002}
+--- (2002), \enquote{Sampling and Geostatistics for Spatial Data,}
+  \textit{Ecoscience}, 9, 152--161.
+
+\bibitem[{Ver~Hoef(2008)}]{Ver:spat:2008}
+--- (2008), \enquote{Spatial Methods for Plot-based Sampling of Wildlife
+  Populations,} \textit{Environmental and Ecological Statistics}, 15, 3--13.
+
+\bibitem[{Ver~Hoef(2012)}]{Ver:who:2012}
+--- (2012), \enquote{Who Invented the Delta Method?} \textit{The American
+  Statistician}, 66, 124--127.
+
+\bibitem[{Ver~Hoef and Boveng(2007)}]{Ver:Bove:quas:2007}
+Ver~Hoef, J.~M. and Boveng, P.~L. (2007), \enquote{Quasi-Poisson vs. negative
+  binomial regression: How should we model overdispersed count data?}
+  \textit{Ecology}, 88, 2766--2772.
+
+\bibitem[{Wang and Ranalli(2007)}]{Wang:Rana:low:2007}
+Wang, H. and Ranalli, M.~G. (2007), \enquote{Low-rank Smoothing Splines on
+  Complicated Domains,} \textit{Biometrics}, 63, 209--217.
+
+\bibitem[{Wikle(2002)}]{Wikl:spat:2002}
+Wikle, C.~K. (2002), \enquote{Spatial modeling of count data: a case study in
+  modelling breeding bird survey data on large spatial domains,} in
+  \textit{Design and Analysis of Ecological Experiments}, eds. Lawson, A. and
+  Denison, D., Chapman \& Hall, London, pp. 199--209.
+
+\bibitem[{Wikle and Berliner(2005)}]{Wikl:Berl:comb:2005}
+Wikle, C.~K. and Berliner, L.~M. (2005), \enquote{Combining information across
+  spatial scales,} \textit{Technometrics}, 47.
+
+\bibitem[{Yaglom(1962)}]{Yagl:intr:1962}
+Yaglom, A.~M. (1962), \textit{An Introduction to the Theory of Stationary
+  Random Functions}, Mineola, New York: Dover Publications, Inc.
+
+\end{thebibliography}

@@ -1,0 +1,1095 @@
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.4.23)  12 OCT 2014 14:32
+entering extended mode
+ %&-line parsing enabled.
+**spCountSampPaper_arXiv
+(./spCountSampPaper_arXiv.tex
+LaTeX2e <2009/09/24>
+Babel <v3.8l> and hyphenation patterns for english, usenglishmax, dumylang, noh
+yphenation, farsi, arabic, croatian, bulgarian, ukrainian, russian, czech, slov
+ak, danish, dutch, finnish, french, basque, ngerman, german, german-x-2009-06-1
+9, ngerman-x-2009-06-19, ibycus, monogreek, greek, ancientgreek, hungarian, san
+skrit, italian, latin, latvian, lithuanian, mongolian2a, mongolian, bokmal, nyn
+orsk, romanian, irish, coptic, serbian, turkish, welsh, esperanto, uppersorbian
+, estonian, indonesian, interlingua, icelandic, kurmanji, slovenian, polish, po
+rtuguese, spanish, galician, catalan, swedish, ukenglish, pinyin, loaded.
+(/usr/share/texmf-texlive/tex/latex/base/article.cls
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/share/texmf-texlive/tex/latex/base/size12.clo
+File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/share/texmf-texlive/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf-texlive/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/usr/share/texmf-texlive/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf-texlive/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/etc/texmf/tex/latex/config/graphics.cfg
+File: graphics.cfg 2009/08/28 v1.8 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+(/usr/share/texmf-texlive/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2010/03/12 v0.04p Graphics/color for pdfTeX
+\Gread@gobject=\count87
+))
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
+(/usr/share/texmf-texlive/tex/latex/graphics/color.sty
+Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
+
+(/etc/texmf/tex/latex/config/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: pdftex.def on input line 130.
+)
+(/usr/share/texmf-texlive/tex/latex/ltxmisc/framed.sty
+Package: framed 2007/10/04 v 0.95: framed or shaded text with page breaks
+\fb@frw=\dimen105
+\fb@frh=\dimen106
+\FrameRule=\dimen107
+\FrameSep=\dimen108
+)
+(/usr/share/texmf-texlive/tex/latex/base/alltt.sty
+Package: alltt 1997/06/16 v2.0g defines alltt environment
+)
+(/home/jay/texmf/tex/latex/style/ams.sty
+Package: ams 1996/01/09
+
+Package `ams' <09 Jan 1996 13:53:56 BST>.
+Copyright (C) 1990,1995 Mike Piff, University of Sheffield, England
+(/usr/share/texmf-texlive/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2009/06/22 v3.00 Basic AMSFonts support
+\@emptytoks=\toks15
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 96.
+)
+Use option defs to define all the AMS symbol names
+) (/usr/share/texmf-texlive/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2000/07/18 v2.13 AMS math features
+\@mathmargin=\skip43
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texmf-texlive/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(/usr/share/texmf-texlive/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks16
+\ex@=\dimen109
+))
+(/usr/share/texmf-texlive/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen110
+)
+(/usr/share/texmf-texlive/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count88
+LaTeX Info: Redefining \frac on input line 211.
+\uproot@=\count89
+\leftroot@=\count90
+LaTeX Info: Redefining \overline on input line 307.
+\classnum@=\count91
+\DOTSCASE@=\count92
+LaTeX Info: Redefining \ldots on input line 379.
+LaTeX Info: Redefining \dots on input line 382.
+LaTeX Info: Redefining \cdots on input line 467.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen111
+LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
+\macc@depth=\count93
+\c@MaxMatrixCols=\count94
+\dotsspace@=\muskip10
+\c@parentequation=\count95
+\dspbrk@lvl=\count96
+\tag@help=\toks17
+\row@=\count97
+\column@=\count98
+\maxfields@=\count99
+\andhelp@=\toks18
+\eqnshift@=\dimen112
+\alignsep@=\dimen113
+\tagshift@=\dimen114
+\tagwidth@=\dimen115
+\totwidth@=\dimen116
+\lineht@=\dimen117
+\@envbody=\toks19
+\multlinegap=\skip44
+\multlinetaggap=\skip45
+\mathdisplay@stack=\toks20
+LaTeX Info: Redefining \[ on input line 2666.
+LaTeX Info: Redefining \] on input line 2667.
+)
+(/usr/share/texmf-texlive/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2009/06/22 v3.00
+)
+(/usr/share/texmf-texlive/tex/latex/natbib/natbib.sty
+Package: natbib 2009/07/16 8.31 (PWD, AO)
+\bibhang=\skip46
+\bibsep=\skip47
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count100
+)
+(/usr/share/texmf-texlive/tex/latex/setspace/setspace.sty
+Package: setspace 2000/12/01 6.7 Contributed and Supported LaTeX2e package
+
+Package: `setspace' 6.7 <2000/12/01>
+) (/usr/share/texmf-texlive/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count101
+\float@exts=\toks21
+\float@box=\box28
+\@float@everytoks=\toks22
+\@floatcapt=\box29
+)
+(/usr/share/texmf-texlive/tex/latex/multirow/multirow.sty
+\bigstrutjot=\dimen118
+)
+(/usr/share/texmf-texlive/tex/latex/upquote/upquote.sty
+Package: upquote 2003/08/11 v1.1 Covington's upright-quote modification to verb
+atim and verb
+
+(/usr/share/texmf-texlive/tex/latex/base/textcomp.sty
+Package: textcomp 2005/09/27 v1.99g Standard LaTeX package
+Package textcomp Info: Sub-encoding information:
+(textcomp)               5 = only ISO-Adobe without \textcurrency
+(textcomp)               4 = 5 + \texteuro
+(textcomp)               3 = 4 + \textohm
+(textcomp)               2 = 3 + \textestimated + \textcurrency
+(textcomp)               1 = TS1 - \textcircled - \t
+(textcomp)               0 = TS1 (full)
+(textcomp)             Font families with sub-encoding setting implement
+(textcomp)             only a restricted character set as indicated.
+(textcomp)             Family '?' is the default used for unknown fonts.
+(textcomp)             See the documentation for details.
+Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 71.
+
+(/usr/share/texmf-texlive/tex/latex/base/ts1enc.def
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+)
+LaTeX Info: Redefining \oldstylenums on input line 266.
+Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 281.
+Package textcomp Info: Setting cmss sub-encoding to TS1/0 on input line 282.
+Package textcomp Info: Setting cmtt sub-encoding to TS1/0 on input line 283.
+Package textcomp Info: Setting cmvtt sub-encoding to TS1/0 on input line 284.
+Package textcomp Info: Setting cmbr sub-encoding to TS1/0 on input line 285.
+Package textcomp Info: Setting cmtl sub-encoding to TS1/0 on input line 286.
+Package textcomp Info: Setting ccr sub-encoding to TS1/0 on input line 287.
+Package textcomp Info: Setting ptm sub-encoding to TS1/4 on input line 288.
+Package textcomp Info: Setting pcr sub-encoding to TS1/4 on input line 289.
+Package textcomp Info: Setting phv sub-encoding to TS1/4 on input line 290.
+Package textcomp Info: Setting ppl sub-encoding to TS1/3 on input line 291.
+Package textcomp Info: Setting pag sub-encoding to TS1/4 on input line 292.
+Package textcomp Info: Setting pbk sub-encoding to TS1/4 on input line 293.
+Package textcomp Info: Setting pnc sub-encoding to TS1/4 on input line 294.
+Package textcomp Info: Setting pzc sub-encoding to TS1/4 on input line 295.
+Package textcomp Info: Setting bch sub-encoding to TS1/4 on input line 296.
+Package textcomp Info: Setting put sub-encoding to TS1/5 on input line 297.
+Package textcomp Info: Setting uag sub-encoding to TS1/5 on input line 298.
+Package textcomp Info: Setting ugq sub-encoding to TS1/5 on input line 299.
+Package textcomp Info: Setting ul8 sub-encoding to TS1/4 on input line 300.
+Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 301.
+Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 302.
+Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 303.
+Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 304.
+
+Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 305.
+Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 306.
+Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 307.
+Package textcomp Info: Setting txr sub-encoding to TS1/0 on input line 308.
+Package textcomp Info: Setting txss sub-encoding to TS1/0 on input line 309.
+Package textcomp Info: Setting txtt sub-encoding to TS1/0 on input line 310.
+Package textcomp Info: Setting futs sub-encoding to TS1/4 on input line 311.
+Package textcomp Info: Setting futx sub-encoding to TS1/4 on input line 312.
+Package textcomp Info: Setting futj sub-encoding to TS1/4 on input line 313.
+Package textcomp Info: Setting hlh sub-encoding to TS1/3 on input line 314.
+Package textcomp Info: Setting hls sub-encoding to TS1/3 on input line 315.
+Package textcomp Info: Setting hlst sub-encoding to TS1/3 on input line 316.
+Package textcomp Info: Setting hlct sub-encoding to TS1/5 on input line 317.
+Package textcomp Info: Setting hlx sub-encoding to TS1/5 on input line 318.
+Package textcomp Info: Setting hlce sub-encoding to TS1/5 on input line 319.
+Package textcomp Info: Setting hlcn sub-encoding to TS1/5 on input line 320.
+Package textcomp Info: Setting hlcw sub-encoding to TS1/5 on input line 321.
+Package textcomp Info: Setting hlcf sub-encoding to TS1/5 on input line 322.
+Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 323.
+Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 324.
+Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 325.
+Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 326.
+))
+No file spCountSampPaper_arXiv.aux.
+\openout1 = `spCountSampPaper_arXiv.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 151.
+LaTeX Font Info:    ... okay on input line 151.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 151.
+LaTeX Font Info:    ... okay on input line 151.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 151.
+LaTeX Font Info:    ... okay on input line 151.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 151.
+LaTeX Font Info:    ... okay on input line 151.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 151.
+LaTeX Font Info:    ... okay on input line 151.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 151.
+LaTeX Font Info:    ... okay on input line 151.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 151.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 151.
+
+(/usr/share/texmf-texlive/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 151.
+
+(/usr/share/texmf-texlive/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count102
+\scratchdimen=\dimen119
+\scratchbox=\box30
+\nofMPsegments=\count103
+\nofMParguments=\count104
+\everyMPshowfont=\toks23
+\MPscratchCnt=\count105
+\MPscratchDim=\dimen120
+\MPnumerator=\count106
+\everyMPtoPDFconversion=\toks24
+)
+LaTeX Font Info:    Try loading font information for U+msa on input line 175.
+ (/usr/share/texmf-texlive/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2009/06/22 v3.00 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 175.
+
+(/usr/share/texmf-texlive/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2009/06/22 v3.00 AMS symbols B
+) [1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [1]
+
+Package natbib Warning: Citation `Coch:samp:1977' on page 1 undefined on input 
+line 201.
+
+
+Package natbib Warning: Citation `Thom:samp:1992' on page 1 undefined on input 
+line 201.
+
+
+Package natbib Warning: Citation `Gand:prob:1959' on page 1 undefined on input 
+line 201.
+
+
+Package natbib Warning: Citation `Gand:opti:1960' on page 1 undefined on input 
+line 201.
+
+
+Package natbib Warning: Citation `Math:Prin:1963' on page 1 undefined on input 
+line 201.
+
+
+LaTeX Warning: Reference `FigRegionsSamples' on page 1 undefined on input line 
+203.
+
+
+LaTeX Warning: Reference `FigRegionsSamples' on page 1 undefined on input line 
+203.
+
+
+Package natbib Warning: Citation `Cres:stat:1993' on page 1 undefined on input 
+line 203.
+
+
+LaTeX Warning: Reference `FigRegionsSamples' on page 1 undefined on input line 
+203.
+
+
+Package natbib Warning: Citation `Yagl:intr:1962' on page 1 undefined on input 
+line 203.
+
+
+Package natbib Warning: Citation `Cres:stat:1993' on page 1 undefined on input 
+line 203.
+
+
+Package natbib Warning: Citation `Cres:stat:1993' on page 1 undefined on input 
+line 203.
+
+
+Package natbib Warning: Citation `Chri:Waag:baye:2002' on page 1 undefined on i
+nput line 203.
+
+
+Package natbib Warning: Citation `Wikl:spat:2002' on page 1 undefined on input 
+line 203.
+
+
+Package natbib Warning: Citation `Mone:Dubr:Bonn:Durb:Guin:Geos:2006' on page 1
+ undefined on input line 203.
+
+[1]
+
+LaTeX Warning: Reference `FigRegionsSamples' on page 2 undefined on input line 
+205.
+
+
+LaTeX Warning: Reference `FigRegionsSamples' on page 2 undefined on input line 
+205.
+
+
+Package natbib Warning: Citation `Ver:pred:2000' on page 2 undefined on input l
+ine 205.
+
+
+Package natbib Warning: Citation `Ver:spat:2008' on page 2 undefined on input l
+ine 205.
+
+
+Package natbib Warning: Citation `Ver:pred:2000' on page 2 undefined on input l
+ine 205.
+
+
+Package natbib Warning: Citation `Ver:spat:2008' on page 2 undefined on input l
+ine 205.
+
+
+LaTeX Warning: Reference `FigRegionsSamples' on page 2 undefined on input line 
+205.
+
+
+LaTeX Warning: Reference `FigRegionsSamples' on page 2 undefined on input line 
+205.
+
+
+Package natbib Warning: Citation `Ver:pred:2000' on page 2 undefined on input l
+ine 205.
+
+
+Package natbib Warning: Citation `Ver:spat:2008' on page 2 undefined on input l
+ine 205.
+
+
+Package natbib Warning: Citation `Ver:samp:2002' on page 2 undefined on input l
+ine 205.
+
+
+LaTeX Warning: Reference `FigRegionsSamples' on page 2 undefined on input line 
+207.
+
+
+LaTeX Warning: Reference `FigRegionsSamples' on page 2 undefined on input line 
+207.
+
+
+LaTeX Warning: Reference `fig:studyArea' on page 2 undefined on input line 213.
+
+
+[2]
+
+Package natbib Warning: Citation `ESRI:ArcG:2009' on page 3 undefined on input 
+line 215.
+
+
+LaTeX Warning: Reference `fig:studyArea' on page 3 undefined on input line 215.
+
+
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+
+LaTeX Warning: Reference `fig:studyArea' on page 3 undefined on input line 217.
+
+
+[3]
+
+Package natbib Warning: Citation `Wikl:spat:2002' on page 4 undefined on input 
+line 221.
+
+
+Package natbib Warning: Citation `Thog:Saue:Knut:hier:2004' on page 4 undefined
+ on input line 221.
+
+
+Package natbib Warning: Citation `Besa:spat:1974' on page 4 undefined on input 
+line 221.
+
+
+Package natbib Warning: Citation `Royl:Kery:Gaut:Schm:hier:2007' on page 4 unde
+fined on input line 221.
+
+
+Package natbib Warning: Citation `Barb:Gelf:hier:2007' on page 4 undefined on i
+nput line 221.
+
+[4]
+
+LaTeX Warning: Reference `SPPEstimator' on page 5 undefined on input line 227.
+
+
+LaTeX Warning: Reference `SimExp' on page 5 undefined on input line 227.
+
+
+LaTeX Warning: Reference `sec:Example' on page 5 undefined on input line 227.
+
+
+LaTeX Warning: Reference `sec:DiscConc' on page 5 undefined on input line 227.
+
+
+LaTeX Warning: Reference `FigRegionsSamples' on page 5 undefined on input line 
+241.
+
+
+LaTeX Warning: Reference `fig:studyArea' on page 5 undefined on input line 241.
+
+
+[5]
+
+Package natbib Warning: Citation `Cres:stat:1993' on page 6 undefined on input 
+line 252.
+
+
+LaTeX Warning: Reference `fig:SimulationExample' on page 6 undefined on input l
+ine 252.
+
+
+LaTeX Warning: Reference `fig:SimulationExample' on page 6 undefined on input l
+ine 252.
+
+
+LaTeX Warning: Reference `sec:GoalsOrg' on page 6 undefined on input line 262.
+
+[6]
+
+Package natbib Warning: Citation `Berm:Turn:appo:1992' on page 7 undefined on i
+nput line 270.
+
+
+LaTeX Warning: Reference `eq:muBi' on page 7 undefined on input line 270.
+
+
+Package natbib Warning: Citation `Gotw:Youn:comb:2002' on page 7 undefined on i
+nput line 274.
+
+
+Package natbib Warning: Citation `Bane:Carl:Gelf:hier:2004' on page 7 undefined
+ on input line 274.
+
+
+Package natbib Warning: Citation `Wikl:Berl:comb:2005' on page 7 undefined on i
+nput line 274.
+
+
+Package natbib Warning: Citation `Bril:spat:1990' on page 7 undefined on input 
+line 274.
+
+
+Package natbib Warning: Citation `Bril:exan:1994' on page 7 undefined on input 
+line 274.
+
+
+Package natbib Warning: Citation `Rupp:Wand:Carr:semi:2003' on page 7 undefined
+ on input line 286.
+
+
+Package natbib Warning: Citation `Wang:Rana:low:2007' on page 7 undefined on in
+put line 286.
+
+
+Package natbib Warning: Citation `Cres:Gard:fixe:2008' on page 7 undefined on i
+nput line 286.
+
+[7]
+
+Package natbib Warning: Citation `Cres:Gard:fixe:2008' on page 8 undefined on i
+nput line 288.
+
+
+Package natbib Warning: Citation `Cres:Gard:fixe:2008' on page 8 undefined on i
+nput line 288.
+
+
+LaTeX Warning: Reference `sec:Knots' on page 8 undefined on input line 288.
+
+
+LaTeX Warning: Reference `eq:logLambda' on page 8 undefined on input line 294.
+
+
+LaTeX Warning: Reference `eq:logMuBiPoint' on page 8 undefined on input line 29
+8.
+
+
+Package natbib Warning: Citation `MacQ:some:1967' on page 8 undefined on input 
+line 302.
+
+
+LaTeX Warning: Reference `sec:motivate' on page 8 undefined on input line 302.
+
+
+LaTeX Warning: Reference `fig:SimulationExample' on page 8 undefined on input l
+ine 302.
+
+
+LaTeX Warning: Reference `SimExp' on page 8 undefined on input line 302.
+
+
+Package natbib Warning: Citation `Nych:Salt:desi:1998' on page 8 undefined on i
+nput line 302.
+
+
+Package natbib Warning: Citation `SAS:stat:2008' on page 8 undefined on input l
+ine 302.
+
+
+Package natbib Warning: Citation `Frie:Bent:Fink:algo:1977' on page 8 undefined
+ on input line 302.
+
+
+Package natbib Warning: Citation `Rupp:Wand:Carr:semi:2003' on page 8 undefined
+ on input line 302.
+
+[8]
+
+LaTeX Warning: Reference `eq:logMuBiPoint' on page 9 undefined on input line 30
+6.
+
+
+Package natbib Warning: Citation `McCu:Neld:gene:1989' on page 9 undefined on i
+nput line 306.
+
+
+LaTeX Warning: Reference `eq:mixmod' on page 9 undefined on input line 312.
+
+
+Package natbib Warning: Citation `Neld:Wedd:gene:1972' on page 9 undefined on i
+nput line 312.
+
+
+LaTeX Warning: Reference `eq:mixmod' on page 9 undefined on input line 316.
+
+
+LaTeX Warning: Reference `eq:logMuBiPoint' on page 9 undefined on input line 31
+6.
+
+[9]
+
+LaTeX Warning: Reference `eq:PoiLL' on page 10 undefined on input line 319.
+
+
+LaTeX Warning: Reference `sec:GoalsOrg' on page 10 undefined on input line 321.
+
+
+
+Package natbib Warning: Citation `R:Deve:Core:ALan:2014' on page 10 undefined o
+n input line 321.
+
+
+Package natbib Warning: Citation `Neld:Mead:simp:1965' on page 10 undefined on 
+input line 321.
+
+
+Package natbib Warning: Citation `Cres:stat:1993' on page 10 undefined on input
+ line 323.
+
+
+LaTeX Warning: Reference `sec:IPPtoPoi' on page 10 undefined on input line 328.
+
+
+
+LaTeX Warning: Reference `eq:Janossy' on page 10 undefined on input line 328.
+
+
+LaTeX Warning: Reference `eq:logMuBiPoint' on page 10 undefined on input line 3
+32.
+
+
+LaTeX Warning: Reference `eq:PoiLL' on page 10 undefined on input line 332.
+
+
+LaTeX Warning: Reference `eq:Janossy' on page 10 undefined on input line 332.
+
+
+LaTeX Warning: Reference `sec:VarEst' on page 10 undefined on input line 332.
+
+
+Package natbib Warning: Citation `Rupp:Wand:Carr:semi:2003' on page 10 undefine
+d on input line 332.
+
+
+LaTeX Warning: Reference `sec:prevWork' on page 10 undefined on input line 332.
+
+
+
+LaTeX Warning: Reference `sec:Est' on page 10 undefined on input line 336.
+
+
+LaTeX Warning: Reference `sec:Est' on page 10 undefined on input line 336.
+
+[10]
+
+LaTeX Warning: Reference `eq:AbunEst' on page 11 undefined on input line 344.
+
+
+LaTeX Warning: Reference `sec:GoalsOrg' on page 11 undefined on input line 348.
+
+
+
+LaTeX Warning: Reference `eq:ThatA' on page 11 undefined on input line 356.
+
+[11]
+
+Package natbib Warning: Citation `Dorf:a:1938' on page 12 undefined on input li
+ne 365.
+
+
+Package natbib Warning: Citation `Ver:who:2012' on page 12 undefined on input l
+ine 365.
+
+
+Package natbib Warning: Citation `John:Laak:Ver:mode:2010' on page 12 undefined
+ on input line 365.
+
+
+Package natbib Warning: Citation `Rath:Cres:asym:1994' on page 12 undefined on 
+input line 365.
+
+
+LaTeX Warning: Reference `eq:SigmaHat' on page 12 undefined on input line 375.
+
+
+LaTeX Warning: Reference `eq:HatMuCU' on page 12 undefined on input line 379.
+
+
+LaTeX Warning: Reference `eq:ci' on page 12 undefined on input line 379.
+
+
+LaTeX Warning: Reference `eq:SigmaHat' on page 12 undefined on input line 379.
+
+
+LaTeX Warning: Reference `eq:nu1' on page 12 undefined on input line 379.
+
+
+Package natbib Warning: Citation `Scha:Gotw:stat:2005' on page 12 undefined on 
+input line 379.
+
+[12]
+
+Package natbib Warning: Citation `Ver:Bove:quas:2007' on page 13 undefined on i
+nput line 385.
+
+
+Package natbib Warning: Citation `Hind:Deme:over:1998' on page 13 undefined on 
+input line 385.
+
+
+Package natbib Warning: Citation `Moor:Tsia:robu:1991' on page 13 undefined on 
+input line 385.
+
+
+Package natbib Warning: Citation `Gijb:Pros:Clae:nonp:2010' on page 13 undefine
+d on input line 385.
+
+[13]
+
+LaTeX Warning: Reference `fig:residDisp' on page 14 undefined on input line 409
+.
+
+
+LaTeX Warning: Reference `fig:SimulationExample' on page 14 undefined on input 
+line 409.
+
+
+LaTeX Warning: Reference `fig:residDisp' on page 14 undefined on input line 409
+.
+
+
+LaTeX Warning: Reference `fig:residDisp' on page 14 undefined on input line 409
+.
+
+
+LaTeX Warning: Reference `fig:residDisp' on page 14 undefined on input line 409
+.
+
+[14]
+
+LaTeX Warning: Reference `eq:AbunEst' on page 15 undefined on input line 411.
+
+
+LaTeX Warning: Reference `eq:SigmaHat' on page 15 undefined on input line 415.
+
+
+LaTeX Warning: Reference `eq:nu1' on page 15 undefined on input line 415.
+
+
+LaTeX Warning: Reference `eq:ThatA' on page 15 undefined on input line 420.
+
+
+LaTeX Warning: Reference `eq:ThatA' on page 15 undefined on input line 420.
+
+
+LaTeX Warning: Reference `eq:ThatA' on page 15 undefined on input line 420.
+
+
+LaTeX Warning: Reference `eq:ThatA' on page 15 undefined on input line 420.
+
+
+LaTeX Warning: Reference `eq:SigmaHat' on page 15 undefined on input line 420.
+
+
+LaTeX Warning: Reference `eq:ThatA' on page 15 undefined on input line 420.
+
+
+Package natbib Warning: Citation `Dorf:a:1938' on page 15 undefined on input li
+ne 420.
+
+
+Package natbib Warning: Citation `Ver:who:2012' on page 15 undefined on input l
+ine 420.
+
+
+LaTeX Warning: Reference `fig:SimulationPlots' on page 15 undefined on input li
+ne 434.
+
+[15]
+
+LaTeX Warning: Reference `eq:ThatA' on page 16 undefined on input line 440.
+
+
+LaTeX Warning: Reference `eq:vkk' on page 16 undefined on input line 440.
+
+
+LaTeX Warning: Reference `eq:vTL' on page 16 undefined on input line 440.
+
+
+LaTeX Warning: Reference `eq:vkk' on page 16 undefined on input line 459.
+
+
+LaTeX Warning: Reference `eq:vTL' on page 16 undefined on input line 459.
+
+
+LaTeX Warning: Reference `sec:Knots' on page 16 undefined on input line 463.
+
+[16]
+
+LaTeX Warning: Reference `fig:SimulationPlots' on page 17 undefined on input li
+ne 469.
+
+
+LaTeX Warning: Reference `Tab:Sim1' on page 17 undefined on input line 471.
+
+
+LaTeX Warning: Reference `sec:Exp1' on page 17 undefined on input line 477.
+
+
+LaTeX Warning: Reference `fig:SimulationPlots' on page 17 undefined on input li
+ne 477.
+
+
+LaTeX Warning: Reference `Tab:Sim2' on page 17 undefined on input line 479.
+
+
+LaTeX Warning: Reference `eq:ThatA' on page 17 undefined on input line 479.
+
+[17]
+
+LaTeX Warning: Reference `fig:SimulationExample' on page 18 undefined on input 
+line 485.
+
+
+LaTeX Warning: Reference `fig:SimulationPlots' on page 18 undefined on input li
+ne 485.
+
+
+LaTeX Warning: Reference `sec:Exp2' on page 18 undefined on input line 485.
+
+
+LaTeX Warning: Reference `Tab:Sim3' on page 18 undefined on input line 487.
+
+
+LaTeX Warning: Reference `eq:ThatA' on page 18 undefined on input line 487.
+
+[18]
+
+LaTeX Warning: Reference `fig:SimulationPlots' on page 19 undefined on input li
+ne 493.
+
+
+LaTeX Warning: Reference `fig:SimulationPlots' on page 19 undefined on input li
+ne 493.
+
+
+LaTeX Warning: Reference `Tab:Sim4' on page 19 undefined on input line 495.
+
+
+LaTeX Warning: Reference `eq:ThatA' on page 19 undefined on input line 495.
+
+[19]
+
+LaTeX Warning: Reference `EffectTrimProp' on page 20 undefined on input line 49
+7.
+
+
+LaTeX Warning: Reference `fig:SimulationPlots' on page 20 undefined on input li
+ne 497.
+
+
+LaTeX Warning: Reference `fig:studyArea' on page 20 undefined on input line 507
+.
+
+
+LaTeX Warning: Reference `sec:motivate' on page 20 undefined on input line 507.
+
+
+
+LaTeX Warning: Reference `RealDataFittedSurface' on page 20 undefined on input 
+line 507.
+
+
+LaTeX Warning: Reference `sec:EvalExp' on page 20 undefined on input line 507.
+
+
+LaTeX Warning: Reference `RealDataFittedSurface' on page 20 undefined on input 
+line 507.
+
+
+LaTeX Warning: Reference `eq:ThatA' on page 20 undefined on input line 507.
+
+
+LaTeX Warning: Reference `eq:nu1' on page 20 undefined on input line 507.
+
+
+LaTeX Warning: Reference `eq:nu1' on page 20 undefined on input line 507.
+
+
+LaTeX Warning: Reference `eq:nu1' on page 20 undefined on input line 507.
+
+
+LaTeX Warning: Reference `sec:overdispersion' on page 20 undefined on input lin
+e 507.
+
+
+LaTeX Warning: Reference `eq:CI' on page 20 undefined on input line 507.
+
+[20]
+
+LaTeX Warning: Reference `EffectTrimProp' on page 21 undefined on input line 50
+9.
+
+
+LaTeX Warning: Reference `fig:residDisp' on page 21 undefined on input line 509
+.
+
+
+LaTeX Warning: Reference `fig:residDisp' on page 21 undefined on input line 509
+.
+
+[21]
+
+LaTeX Warning: Reference `Tab:Sim1' on page 22 undefined on input line 518.
+
+
+LaTeX Warning: Reference `Tab:Sim4' on page 22 undefined on input line 518.
+
+
+LaTeX Warning: Reference `fig:SimulationExample' on page 22 undefined on input 
+line 518.
+
+
+LaTeX Warning: Reference `RealDataFittedSurface' on page 22 undefined on input 
+line 518.
+
+
+LaTeX Warning: Reference `sec:Knots' on page 22 undefined on input line 518.
+
+
+Package natbib Warning: Citation `Wikl:spat:2002' on page 22 undefined on input
+ line 520.
+
+
+Package natbib Warning: Citation `Chri:Waag:baye:2002' on page 22 undefined on 
+input line 520.
+
+
+Package natbib Warning: Citation `R:Deve:Core:ALan:2014' on page 22 undefined o
+n input line 520.
+
+
+Package natbib Warning: Citation `Badd:Turn:spat:2005' on page 22 undefined on 
+input line 520.
+
+
+Package natbib Warning: Citation `Badd:Turn:mode:2006' on page 22 undefined on 
+input line 520.
+
+
+Package natbib Warning: Citation `Kyri:geos:2004' on page 22 undefined on input
+ line 520.
+
+
+LaTeX Warning: Reference `eq:ThatA' on page 22 undefined on input line 520.
+
+
+LaTeX Warning: Reference `eq:nu1' on page 22 undefined on input line 520.
+
+
+LaTeX Warning: Reference `sec:overdispersion' on page 22 undefined on input lin
+e 520.
+
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+[22] [23] [24
+
+] [25]
+Missing character: There is no ‚ in font cmti12!
+Missing character: There is no Ä in font cmti12!
+Missing character: There is no ô in font cmti12!
+ [26] [27]
+
+LaTeX Warning: Reference `fig:SimulationPlots' on page 28 undefined on input li
+ne 787.
+
+
+LaTeX Warning: Reference `fig:SimulationPlots' on page 28 undefined on input li
+ne 787.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 810--816
+
+ []
+
+
+LaTeX Warning: Reference `Tab:Sim1' on page 28 undefined on input line 822.
+
+
+LaTeX Warning: Reference `fig:SimulationPlots' on page 28 undefined on input li
+ne 822.
+
+
+LaTeX Warning: Reference `Tab:Sim1' on page 28 undefined on input line 822.
+
+
+LaTeX Warning: Reference `Tab:Sim1' on page 28 undefined on input line 822.
+
+
+LaTeX Warning: Reference `fig:SimulationPlots' on page 28 undefined on input li
+ne 822.
+
+
+LaTeX Warning: Reference `Tab:Sim1' on page 28 undefined on input line 822.
+
+
+LaTeX Warning: Reference `Tab:Sim1' on page 28 undefined on input line 851.
+
+
+LaTeX Warning: Reference `fig:SimulationPlots' on page 28 undefined on input li
+ne 851.
+
+
+LaTeX Warning: Reference `Tab:Sim1' on page 28 undefined on input line 851.
+
+
+LaTeX Warning: Reference `Tab:Sim1' on page 28 undefined on input line 851.
+
+
+LaTeX Warning: Reference `fig:SimulationPlots' on page 28 undefined on input li
+ne 851.
+
+
+LaTeX Warning: Reference `Tab:Sim1' on page 28 undefined on input line 851.
+
+
+LaTeX Warning: Reference `Tab:Sim1' on page 28 undefined on input line 880.
+
+
+LaTeX Warning: Reference `fig:SimulationPlots' on page 28 undefined on input li
+ne 880.
+
+
+LaTeX Warning: Reference `Tab:Sim1' on page 28 undefined on input line 880.
+
+
+LaTeX Warning: Reference `Tab:Sim1' on page 28 undefined on input line 880.
+
+
+LaTeX Warning: Reference `fig:SimulationPlots' on page 28 undefined on input li
+ne 880.
+
+
+LaTeX Warning: Reference `Tab:Sim1' on page 28 undefined on input line 880.
+
+[28
+
+] [29] [30]
+
+LaTeX Warning: File `FigRegionsSamples.pdf' not found on input line 926.
+
+
+! Package pdftex.def Error: File `FigRegionsSamples.pdf' not found.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.926 ...phics[width=450pt]{FigRegionsSamples.pdf}
+                                                  
+? X
+ 
+Here is how much of TeX's memory you used:
+ 3088 strings out of 493848
+ 40301 string characters out of 1152823
+ 102490 words of memory out of 3000000
+ 6321 multiletter control sequences out of 15000+50000
+ 17054 words of font info for 63 fonts, out of 3000000 for 9000
+ 714 hyphenation exceptions out of 8191
+ 27i,15n,24p,2481b,331s stack positions out of 5000i,500n,10000p,200000b,50000s
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texmf-t
+exlive/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-texlive/font
+s/type1/public/amsfonts/cm/cmbx8.pfb></usr/share/texmf-texlive/fonts/type1/publ
+ic/amsfonts/cm/cmcsc10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfont
+s/cm/cmex10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi12
+.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/s
+hare/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-t
+exlive/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/share/texmf-texlive/fon
+ts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-texlive/fonts/type1/pub
+lic/amsfonts/cm/cmr12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts
+/cm/cmr17.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr8.pfb
+></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/shar
+e/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-tex
+live/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-texlive/fonts/t
+ype1/public/amsfonts/cm/cmti12.pfb></usr/share/texmf-texlive/fonts/type1/public
+/amsfonts/cm/cmtt12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/s
+ymbols/msam10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/symbols
+/msbm10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/sh
+are/texmf/fonts/type1/public/cm-super/sfti0800.pfb>
+Output written on spCountSampPaper_arXiv.pdf (32 pages, 334339 bytes).
+PDF statistics:
+ 190 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+

@@ -1,0 +1,19 @@
+Reviewers' comments:
+
+This paper presents a nice approach to estimating population totals from a sample of plots containing count data.  The authors use change-of-support methodology to model counts in images as an IPP using spatial basis functions.  In general, I think this paper is well written and do not have much to add beyond the comments of the two referees.
+
+Comments:
+1. Some of the figures may be easier to read in color.  One of the referees had specific suggestions regarding the figures.
+2. 7, 27: Why is K_F \ge 4K_C?  Perhaps you could say more about this choice?
+3. 8, 20-23:  Are these recommendations for the bivariate case or are these knot choices for the univariate case only?
+4. 9, 5: I believe in R (using optim) you would need to use LBGF instead of Nelder-Mead if wanted to constrain the range?  
+
+Minor Comments:
+1. 3, 57: Should be “Royle et al. (2007)".
+2. 4, 6: “…, but we do not…” should be “…, we do not…”
+3. 5, 54: There should not be a space before the period causing it to be pushed to the subsequent line.
+4. 6, 45-47:  Another potentially appropriate reference is Wikle and Berliner (2005, Technometrics).
+5. 9: Comma after Eq. (10).
+
+Reviewer #1: The enclosed pdf file includes minor suggestions to improve an already fine paper.   I congratulate the authors for this contribution to the literature.
+

@@ -1,0 +1,352 @@
+% cd "/media/Hitachi2GB/00NMML/ActiveRPack/spCountSampPaper_package/spCountSampPaper/inst/doc/manu"
+% pdflatex VerHoefResponse2Review
+% ------------------------------------------------------------------------------
+%
+% PREAMBLE
+%
+% ------------------------------------------------------------------------------
+
+\documentclass[12pt, titlepage]{article}
+
+\usepackage{graphicx, amsmath, natbib, setspace, sectsty, verbatim, dsfont, hyperref}
+\usepackage{fancyvrb}
+\usepackage{xcolor}
+\DefineVerbatimEnvironment{code}{Verbatim}{fontsize=\small, baselinestretch=1}
+\bibpunct{(}{)}{;}{a}{}{,}
+\setlength{\parindent}{3em}
+%\parskip = 1.5ex
+%\linespread{1.3}
+\onehalfspacing
+
+\pdfpagewidth 8.5in
+\pdfpageheight 11in
+\setlength{\oddsidemargin}{0.0in} \setlength{\textwidth}{6.5in}
+\setlength{\topmargin}{0.15in} \setlength{\textheight}{8.5in}
+\setlength{\headheight}{0.0in} \setlength{\headsep}{0.0in}
+
+% Jay's definitions
+\def\bepsilon{\mbox{\boldmath $\epsilon$}}
+\def\bmu{\mbox{\boldmath $\mu$}}
+\def\blambda{\mbox{\boldmath $\lambda$}}
+\def\btheta{\mbox{\boldmath $\theta$}}
+\def\bomega{\mbox{\boldmath $\omega$}}
+\def\bbeta{\mbox{\boldmath $\beta$}}
+\def\bphi{\mbox{\boldmath $\phi$}}
+\def\brho{\mbox{\boldmath $\rho$}}
+\def\bdelta{\mbox{\boldmath $\delta$}}
+\def\bGamma{\mbox{\boldmath $\Gamma$}}
+\def\bLambda{\mbox{\boldmath $\Lambda$}}
+\def\bSigma{\mbox{\boldmath $\Sigma$}}
+\def\bDelta{\mbox{\boldmath $\Delta$}}
+\def\bA{\textbf{A}}
+\def\bb{\textbf{b}}
+\def\bD{\textbf{D}}
+\def\bC{\textbf{C}}
+\def\bCbeta{\textbf{C}_{\beta}}
+\def\bH{\textbf{H}}
+\def\bI{\textbf{I}}
+\def\bR{\textbf{R}}
+\def\bV{\textbf{V}}
+\def\bVi{\textbf{V}^{-1}}
+\def\dbV{\.{\textbf{V}}}
+\def\bY{\textbf{Y}}
+\def\bX{\textbf{X}}
+\def\bXt{\textbf{X}^{\prime}}
+\def\bj{\textbf{j}}
+\def\bs{\textbf{s}}
+\def\bz{\textbf{z}}
+\def\by{\textbf{y}}
+\def\cU{\mathcal{U}}
+\def\cB{\mathcal{B}}
+\def\cM{\mathcal{M}}
+\def\var{\textrm{var}}
+\def\cov{\textrm{cov}}
+\def\mT{^{\prime}}
+
+\begin{document}
+
+%------------------------------------------------------------------------------
+%------------------------------------------------------------------------------
+%                        AE COMMENTS
+%------------------------------------------------------------------------------
+%------------------------------------------------------------------------------
+
+\section{Reply to Associate Editors' Comments}
+
+{\color{red!70!black}This paper presents a nice approach to estimating population totals from a sample of plots containing count data.  The authors use change-of-support methodology to model counts in images as an IPP using spatial basis functions.  In general, I think this paper is well written and do not have much to add beyond the comments of the two referees.}
+
+Thank you for the comment above, and for providing the following suggestions.  We have incorporated all of them, and the changes have improved the manuscript substantially.  We respond to each comment below.
+
+\vspace{.5cm}
+{\color{red!70!black} \noindent \Large Comments:}
+
+\begin{itemize}
+\item {\color{red!70!black} 1. Some of the figures may be easier to read in color.  One of the referees had specific suggestions regarding the figures. }
+
+  Changed as suggested.
+
+\item {\color{red!70!black} 2. 7, 27: Why is $K_F$ $\ge$ $4K_C$?  Perhaps you could say more about this choice?}
+
+  We added the following clarification ``\dots generally $K_F \geq 4K_C$. Note that Cressie and Johannesson (2008) use 3 scales with approximately 3 times as many knots at the next finer scale. Here, because we only have two scales, we use 4 times as many knots at the finer scale.'' We recognize that this is \emph{ad hoc}, and as explained later, the issue of knot selection requires more research.
+
+\item {\color{red!70!black} 3. 8, 20-23:  Are these recommendations for the bivariate case or are these knot choices for the univariate case only?}
+
+All of the cited literature was in a spatial context, so they are all bivariate.  We clarified that by adding ''spatial'' when referring to knots pertaining to this literature.
+
+\item {\color{red!70!black} 4. 9, 5: I believe in R (using optim) you would need to use LBGF instead of Nelder-Mead if wanted to constrain the range? }
+
+We added the following clarification ``To ensure boundary conditions, say $a$ as a lower bound and $b$ as an upper bound for one of the elements in $\brho$, we used a tranformation $\rho = a + (b-a)\exp(\rho^*)/(1 + \exp(\rho^*))$, and then optimized for unconstrained $\rho^*$ (note that $a$ was a sliding lower boundary for $\rho_C$, but it would stabilize as $\rho_F$ found its optimum).''
+
+\end{itemize}
+
+\vspace{.5cm}
+{\color{red!70!black} \noindent \Large Minor Comments:}
+
+\begin{itemize}
+\item {\color{red!70!black} 1. 3, 57: Should be ``Royle et al. (2007)'' }
+
+  Corrected.
+
+\item {\color{red!70!black} 2. 4, 6: ``\dots, but we do not\dots'' should be ``\dots, we do not\dots''}
+
+  Corrected.
+
+\item {\color{red!70!black} 3. 5, 54: There should not be a space before the period causing it to be pushed to the subsequent line.}
+
+  Corrected.
+
+\item {\color{red!70!black} 4. 6, 45--47:  Another potentially appropriate reference is Wikle and Berliner (2005, Technometrics).}
+
+  Added as suggested.
+
+\item {\color{red!70!black} 5. 9: Comma after Eq. (10).}
+
+  Corrected.
+
+\end{itemize}
+
+
+%------------------------------------------------------------------------------
+%------------------------------------------------------------------------------
+%                        REVIEWER 1
+%------------------------------------------------------------------------------
+%------------------------------------------------------------------------------
+
+\section{Reply to Reviewer \#1 Report}
+
+{\color{red!70!black}
+In this manuscript the authors propose a model-based approach for estimating abundance from counts
+obtained during surveys of areal sample units (plots) whose locations are selected without benefit of
+randomization. The authors’ approach of using a spatial point process as a conceptual model makes
+perfect sense. They show that the observed counts can be derived from the assumptions of a Poisson
+process model, and they use Gaussian basis functions to specify spatial dependence among plots as a
+function of distance between plots. However, I do agree with the authors’ assessment that “the whole
+issue of knot selection needs further research” (p. 18). That said, this does not diminish the value of
+the authors’ current contribution, which I believe to be quite high.
+
+The manuscript is generally well written and well organized. Below I offer several suggestions to
+improve an already fine paper.
+}
+
+Thank you for the summary above, and for providing the following suggestions.  We have incorporated almost all of them, and the changes have improved the manuscript substantially.  We respond to each comment below.
+
+\begin{itemize}
+
+\item {\color{red!70!black} 1. p. 1, line 56: $D$ is not defined. Should this be $R$?}
+
+  Corrected.
+
+\item {\color{red!70!black} 2. 1st paragraph of Section 1.2: The authors’ conceptual framework is very similar to that described by Barber and Gelfand (2007) ``Hierarchical spatial modeling for estimation of population size'' Environmental and Ecological Statistics 14, 193--205. At a minimum, the authors should cite this article.}
+
+  Thank you.  It is a good reference that we missed.  It has been added.
+
+\item {\color{red!70!black} 3. p. 4, lines 29--31: The condition of unbiasedness is a lot to ask, and I’m not sure the authors have demonstrated that their estimator is unbiased. Why not simply require that the estimator be consistent?}
+
+  That is a good point.  Consistency is difficult here, and not exactly what we are after.  Because of the whole finite population setting, as $n$ increases to $N$, and we simply sum observed counts, any estimator would be consistent in that sense.  We are after unbiasedness for fixed sample sizes over many realizations of a vaguely defined process.  That will be difficult to prove in general, so we waffled and changed the wording to ``The estimator should be approximately unbiased (demonstrated through simulations), and\dots''.  We hope that is acceptable.
+
+\item {\color{red!70!black} 4. p. 5, lines 20--23: Replace dx with ds to keep notation consistent.}
+
+  Corrected.
+
+\item {\color{red!70!black} 5. p. 5, line 48: Here is first appearance of Poi($\mu$(A)). Indicate that this notation is shorthand for Poisson with mean $\mu$(A).}
+
+  Corrected.
+
+\item {\color{red!70!black} 6. p. 6, line 19: ``to make inference on $\lambda(\bs|\theta)$ from data'' sounds awkward. Why not simply say, ``to infer $\lambda(\bs|\theta)$ from data''? Also, in the same sentence replace ``aerial support'' with ``areal support''.}
+
+  Both corrected.
+
+\item {\color{red!70!black} 7. p. 7, line 12: Need to indicate that $\rho > 0$ is required by the Gaussian basis function. }
+
+  Corrected.
+
+\item {\color{red!70!black} 8. p. 7, lines 21--22: Here authors promise to discuss later why they treated the parameter $\gamma$ as fixed, not random. I may have missed it, but I could not locate their discussion.}
+
+  Sorry.  That sentence is an orphan from an earlier version.  That topic seems too complicated to get into in this paper.  The sentence has been removed.
+
+\item {\color{red!70!black} 9. p. 7, line 31: Replace ``linear'' with ``log-linear'' }
+
+  Corrected.
+
+\item {\color{red!70!black} 10. p. 7, line 44: The simplification from $\beta_0^*$ with offset to $\beta_0$ seems unnecessary. Instead, just change (6).}
+
+  Changed as suggested.
+
+\item {\color{red!70!black} 11. p. 8, lines 29--30: Technically speaking, $Y(B_i)$ and $Y(\bs_i)$ are not identical. Only $Y(B_i)$ has a Poisson distribution.}
+
+  We meant that to be equivalent notation where $Y(\bs_i)$ emphasized the centroid, but it seems unnecessary, so we removed  $Y(\bs_i)$ as it is not used again.
+
+\item {\color{red!70!black} 12. p. 9, line 51: Replace ``Reimann'' with ``Riemann''}
+
+  Corrected.
+
+\item {\color{red!70!black} 13. p. 11, line 30: Replace ``Overdisperion'' with ``Overdispersion''}
+
+  Corrected.
+
+\item {\color{red!70!black} 14. Section 2.8: I'm not really keen on the authors' approach of trying to account for spatial clustering by simply inflating the variance estimator. I think this is the weakest part of the paper and is not really necessary. Sure the Poisson process with spatial dependence is not entirely adequate, but wouldn't it make more sense to extend the Poisson model to account for a process that generates extra zeros (e.g., effects of poor-quality habitat)? The variance-inflation approach seems ad hoc to me.}
+
+  We agree that an extension of the Poisson model is more elegant, but would require modeling a non-stationary variance, or a zero-inflated model, and would change the whole estimation scheme that we use. It would surely add computational demands.  The current iterative algorithm, coupled with the variance inflation, is very fast and can accommodate very large data sets, which is part of the appeal, and part of the trade-off.  We think that the variance inflation is not much more \emph{ad hoc} than method-of-moments estimators in general, and of course it is in common use in the quasi-Poisson models.  In fact, it is the application of the variance inflation locally (in the higher abundance areas) that is one of the main innovations of the paper over a simple quasi-type model.  It is necessary to obtain (nearly) correct confidence intervals for the simulations. The lack of proper coverage (really, very poor) of the simple quasi-type inflation is what initially drove us to this solution.
+
+\item {\color{red!70!black} 15. p. 14, line 16: The confidence interval for abundance $T_t$ appears to be based on an assumption of normality (but shouldn’t 1.654 be 1.645?); however, there is no theoretical basis for this assumption since $\hat{T}(\cU)$ is a nonlinear function of the model’s parameters. If anything, I would have thought that the authors would have used a lognormal distribution and formed the CI by computing lognormal parameters that imply a lognormal mean of $\hat{T}(\cU)$ and a lognormal variance $\hat{v}_{k,t}$. If the value of $\hat{T}(\cB)$ is small, using a normal distribution could potentially yield a negative value for the lower confidence limit of abundance, which is obviously undesirable.}
+
+  Thank you very much. In looking at eq. (10), we just assumed that sum would allow the central limit theorem to work for us.  However, there is very high correlation.  After examination, the estimator is skewed, even for large $\hat{T}(A)$.  We adopted your suggestion, and added a paragraph on confidence intervals and new equation (18).  We re-computed all of the tables for the simulations as well, but the overall patterns and recommendations are unchanged. We also fixed 1.645.
+
+\item {\color{red!70!black} 16. p. 17, line 27: Replace ``Figure 1'' with ``Figure 2'' }
+
+  Corrected.
+
+\item {\color{red!70!black} 17. Figure 2: It's difficult to distinguish the spatial pattern with grey scale. I recommend using a color figure.}
+
+  Changed as suggested.
+
+\item {\color{red!70!black} 18. Figure 7: Scale uses dark grey for low abundance and light grey for high abundance, which is exactly opposite that of Figure 2! I think these two figures should use the same ordering of color scale.}
+
+  Changed as suggested.
+
+\end{itemize}
+
+
+%------------------------------------------------------------------------------
+%------------------------------------------------------------------------------
+%                        REVIEWER 2
+%------------------------------------------------------------------------------
+%------------------------------------------------------------------------------
+
+\section{Reply to Reviewer \#2 Report}
+
+\vspace{.5cm}
+{\color{red!70!black} \noindent \Large General Comments:}
+
+{\color{red!70!black}
+I enjoyed reading this paper and think it makes some good contributions, especially appropriate for the Journal of Wildlife Management.
+
+Statistics is an art. Sure, there are circumstances where little creativity is needed for data analysis, but wildlife data often have challenging features, requiring statistical artistry. Some wildlife biologists, having embraced the Popperian philosophy and admiring the purity of the laboratory sciences, recoil at the suggestion of statistical artistry. For them, statistical analysis should be an automatic process, one which in an ideal world would not require the services of a statistician and could be handled automatically by a computer.
+
+Such thinking is evident in JWM’s lab-report inspired format, which requires distinct Study Area, Methods, Results, Discussion, and Management Implications sections. The effect is stultifying; authors are forced to pretend their methods were completely thought out before data were collected and not influenced by what they found when performing analyses; readers are forced to flip back and forth between sections to understand how conclusions were drawn. And don’t get me started on JWM’s copy editing.
+
+It is not surprising, then, that JWM has embraced an orthodoxy for multimodel inference. Hypothesis testing is out; AIC is de rigeur. I have known authors to have papers rejected on the grounds that they only considered a single model, and heard mutterings about “the AIC police.” The foregoing figure illustrates the phenomenon; it is noteworthy that no such trend is evident in publications outside the field of wildlife statistics which have not been influenced by the same orthodoxy. One looks almost in vain for reference to AIC in statistics journals such as JASA or JRSS, or in applications like JAMA or Econometrica. I believe the present paper is a good tonic to recent excesses, but as may be evident from my comments so far, think it could be a bit more hard hitting.
+}
+
+Thank you for the comments above.  We do believe JWM is a fine journal, but agree with your general assessment of AIC and its use in various disciplines, and the degree to which some authors have been rejected simply by not using AIC.  We have heard the same stories.
+
+\vspace{.5cm}
+{\color{red!70!black} \noindent \Large Specific Comments:}
+
+\begin{itemize}
+\item {\color{red!70!black} Lines 143-144. Hurray! My impression is that much silly discussion of models and truth has arisen due to misunderstanding of “standard Bayesian language” (see Link and Barker 2006) exploited as providing theoretical advantage to AIC over BIC or the use of Bayes factors. }
+
+  \dots
+
+\item {\color{red!70!black} Lines 275-273. I didn’t find the map analogy convincing; this section might need a bit of polish.}
+
+  Removed completely.
+
+\item {\color{red!70!black} Lines 345$ff$. Another hurray, for the general topic. But the comment about global probabilities is a bit vague.}
+
+ \dots
+
+\item {\color{red!70!black}Line 441ff. Couple of comments about the 4 C’s:
+
+  \begin{itemize}
+
+    \item I came across the following quote recently, of IJ Good: 
+
+      ``We must weigh up the expected time for doing the mathematical and statistical calculations against the expected utility of these calculations. Apparently less good methods may therefore sometimes be preferred.''
+
+Written in 1952, the observation seems prescient. The only qualification I’d make is this: given the amount of time and energy that goes into planning studies and collecting data, it seems silly to rush the analytical part, or to downplay its importance. This leads me to what I consider my main observation \dots
+
+    \item \dots that perhaps the paper could be strengthened by suggesting a 5th ``C'' – stronger collaboration with statisticians, rather than resort to simple but imperfect methods. 
+
+  \end{itemize}
+}
+
+ \dots
+
+\item {\color{red!70!black} 5. Page 12, top: Why is weighted least squares rather than ordinary least squares the right thing to do here? I worry about robustness to outliers even in unweighted form. Is there a mathematical justification for the weighting - the authors merely state that they want to weight values with large expectation more. More generally, I would have thought that estimation for overdispersion in Poisson models is well-developed in the literature, yet the authors treat this as an open area for investigation. Can the authors confirm that this is still an open question and give the reader a few citations to point to the current understanding of this problem? Is the linear regression estimator completely new or have others proposed this? Given the simplicity of the linear regression estimator, if this has not been proposed before, is there a reason for that?}
+
+  We have added material to the introductory paragraph on the overdispersion section.  We have searched thoroughly, and several times, trying to find reasonable estimators in the literature.  That would be desirable rather than proposing our own, but we have not found anything.  Still, it's possible that we missed some.  We tried many searches using words like 'overdispersion,' 'robust,' 'nonstationary,' and many more.  Our situation is somewhat unique because we want to trim or downweight residuals with low expected values, so it is not a general prescription.  Part of the reason that we list several estimators is that we do not know which is best.  We suspect the trimmed mean is the best, in part for the reasons that you mention, but it does require a decision on the trimming percentage.  We hope to continue research in this area, and hope others will as well.
+
+\end{itemize}
+
+\vspace{.5cm}
+{\color{red!70!black} \noindent \Large Minor Comments:}
+
+\begin{itemize}
+
+\item {\color{red!70!black} 1. Abstract, line 29: ``unsampled area'' $=>$ ``unsampled areas''}
+
+  Corrected.
+
+\item {\color{red!70!black} 2. Page 1, line 50: I didn't follow why ``extensions to count data have been difficult''. There is lots of work on spatial GLMs where the likelihood is Poisson. Is there some difficulty in going from maps developed based on count data to abundance estimates? Are the issues involved basically those given in Section 1.3 of the manuscript?}
+
+  In part due to Section 1.3, but we were mainly thinking about nonlinear link functions and change-of-support.  We have clarified this sentence and added a reference to Cressie, 1993.
+
+\item {\color{red!70!black} 3. Page 3, line 24: ``days'' $=>$ ``day's''}
+
+  Corrected.
+
+\item {\color{red!70!black} 4. Page 8, line 50: It might be helpful to the reader to explicitly call this a block-wise coordinate descent algorithm.}
+
+  Changed as suggested.
+
+\item {\color{red!70!black} 5. Page 9, line 7: As far as I can tell, R's optim() does not provide for constraints when using Nelder-Mead, only when using BFGS (see the help information on the 'lower' and 'upper' arguments). Can the authors clarify how they imposed the constraints? Furthermore, I believe the constraints in optim() are constants and wouldn’t allow for a constraint such as $\rho_C > \rho_F$.}
+
+  The AE had a question about this as well.  It is now clarified.
+  
+\item {\color{red!70!black} 6. Page 9, line 51: ``Reimann'' $=>$ ``Riemann''}
+
+  Corrected.
+
+\item {\color{red!70!black} 7. Page 11, line 30: ``Overdisperion'' $=>$ ``Overdispersion'' !!!}
+
+  Correted.
+
+\item {\color{red!70!black} 8. Page 18, line 46: A side note that I believe similar convergence issues happen with spatial models with Tweedie (continuous observations with zero inflation) likelihoods as well, though I don't have a good citation offhand.
+}
+
+Thank you. We could only find \href{https://groups.google.com/forum/#!topic/r-inla-discussion-group/FniAa8N_KaE}{this reference} with some searching.  I will contact Chris upon re-submitting this.  It is an interesting connection.  Thank you.
+
+\item {\color{red!70!black} 9. Fig. 4: It would be helpful to use different line types to distinguish the two solid lines in panel A.}
+
+  Changed as suggested, and we think the whole figure is improved by using open circles as well.
+
+\item {\color{red!70!black} 10. In Fig. 2, dark is high abundance, while in Figs. 3 and 7, dark is low. It would be good to have the color ramp be consistent in direction. I'd also suggest color as a way of allowing the reader to more easily see the variations than a greyscale, particularly in Figs. 2 and 7, but I'll leave this comment as being one of personal preference.
+}
+
+These have been changed as suggested, and color is now used.
+
+\end{itemize}
+
+%\bibliography{symlinkStatBibTex}
+%\bibliographystyle{asa}
+
+
+\end{document} 
+
+
+
+
+
+
+
